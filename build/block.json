@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "imagen-flow/generator",
+  "version": "1.0.0",
+  "title": "ImagenFlow",
+  "category": "media",
+  "icon": "format-image",
+  "description": "AI-Powered Native Image Generation.",
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": []
+    },
+    "hasGenerated": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "textdomain": "imagen-flow",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

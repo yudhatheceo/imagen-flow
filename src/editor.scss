@@ -1,0 +1,17 @@
+@import "./style.scss";
+
+.imagen-flow-thumbnail {
+    position: relative;
+
+    .insert-button {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+
+    &:hover .insert-button {
+        opacity: 1;
+    }
+}
