@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       ImagenFlow
- * Plugin URI:        https://github.com/yourusername/imagen-flow
+ * Plugin URI:        https://github.com/yudhatheceo/imagen-flow
  * Description:       AI-Powered Native Image Generation for Gutenberg using Gemini API.
  * Version:           1.0.0
  * Author:            The Beacon Team
- * Author URI:        https://thebeacon.id
+ * Author URI:        https://beacon.co.id
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       imagen-flow
